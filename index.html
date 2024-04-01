@@ -21,7 +21,47 @@
     </div>
 
     <div class="signup">
+        <div class="intro">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize
+                your deepest dreams. <br> Sign up <em>now</em> to get started. <br> <br> You <em>know</em> you want to.
+            </p>
+        </div>
 
+        <div class="formdiv">
+            <form action="/" method="POST">
+                <p>Lets do this!</p>
+
+                <div class="fields">
+                    <div class="field">
+                        <label for="first-name">first name</label>
+                        <input type="text" id="first-name" name="firstName">
+                    </div>
+                    <div class="field">
+                        <label for="last-name">last name</label>
+                        <input type="text" id="last-name" name="lastName">
+                    </div>
+                    <div class="field">
+                        <label for="email">email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="field">
+                        <label for="phone-number">phone number</label>
+                        <input type="number" id="phone-number" name="phoneNumber">
+                    </div>
+                    <div class="field">
+                        <label for="password">password</label>
+                        <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[A-Z]).{8,}">
+                    </div>
+                    <div class="field">
+                        <label for="confirm-password">confirm password</label>
+                        <input type="password" id="confirm-password" name="confirmPassword">
+                    </div>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+        </div>
+
+        <p class="alr"><span>Already have an account? <a href="#" style="color: green;">Log in</a></span></p>
     </div>
 </body>
 
